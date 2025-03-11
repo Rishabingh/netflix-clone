@@ -1,0 +1,17 @@
+<svg width="200" height="150" viewBox="0 0 200 150" xmlns="http://www.w3.org/2000/svg">
+    <!-- Gradient Definition -->
+    <defs>
+        <linearGradient id="tvGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="pink"/>
+            <stop offset="50%" stop-color="purple"/>
+            <stop offset="100%" stop-color="black"/>
+        </linearGradient>
+    </defs>
+
+    <!-- TV Screen -->
+    <rect x="20" y="20" width="160" height="90" rx="5" fill="url(#tvGradient)" stroke="black" stroke-width="2"/>
+    
+    <!-- TV Stand -->
+    <rect x="85" y="110" width="30" height="10" fill="black"/>
+    <rect x="60" y="120" width="80" height="10" fill="black"/>
+</svg>

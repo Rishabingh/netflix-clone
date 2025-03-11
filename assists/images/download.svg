@@ -1,0 +1,20 @@
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <!-- Gradient Definition -->
+    <defs>
+        <linearGradient id="downloadGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="pink"/>
+            <stop offset="50%" stop-color="purple"/>
+            <stop offset="100%" stop-color="black"/>
+        </linearGradient>
+    </defs>
+
+    <!-- Circle Background -->
+    <circle cx="50" cy="50" r="45" fill="url(#downloadGradient)" stroke="black" stroke-width="3"/>
+
+    <!-- Arrow -->
+    <path d="M35 45 L50 60 L65 45" fill="none" stroke="white" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="50" y1="25" x2="50" y2="55" stroke="white" stroke-width="5" stroke-linecap="round"/>
+
+    <!-- Base Line -->
+    <line x1="30" y1="70" x2="70" y2="70" stroke="white" stroke-width="5" stroke-linecap="round"/>
+</svg>

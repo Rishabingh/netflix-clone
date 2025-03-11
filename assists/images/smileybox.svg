@@ -1,0 +1,17 @@
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Smiley blocks with gradient -->
+  <defs>
+    <linearGradient id="smileyGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="pink" />
+      <stop offset="100%" stop-color="purple" />
+    </linearGradient>
+  </defs>
+  <rect x="20" y="40" width="30" height="30" rx="5" fill="url(#smileyGradient)" />
+  <rect x="50" y="50" width="30" height="30" rx="5" fill="url(#smileyGradient)" />
+  <circle cx="30" cy="50" r="2" fill="white" />
+  <circle cx="40" cy="50" r="2" fill="white" />
+  <path d="M30 60 Q35 65 40 60" stroke="white" stroke-width="2" fill="none" />
+  <circle cx="60" cy="60" r="2" fill="white" />
+  <circle cx="70" cy="60" r="2" fill="white" />
+  <path d="M60 70 Q65 75 70 70" stroke="white" stroke-width="2" fill="none" />
+</svg>
